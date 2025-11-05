@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SpeakUp! – Media Edukasi dan Refleksi Diri Anti-Bullying</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Tambahan minimal agar tampilan tetap rapi meskipun file CSS belum dimuat */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f8f9fa;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background: linear-gradient(90deg, #4a90e2, #6fcf97);
+      color: white;
+      padding: 20px;
+      border-bottom: 4px solid #357ABD;
+    }
+    nav {
+      margin: 15px 0;
+    }
+    nav button {
+      background-color: #4a90e2;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    nav button:hover {
+      background-color: #357ABD;
+    }
+    main {
+      padding: 20px;
+      min-height: 60vh;
+    }
+    footer {
+      background-color: #eee;
+      color: #555;
+      padding: 10px 0;
+      font-size: 0.9em;
+      border-top: 1px solid #ccc;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>SpeakUp!</h1>
+    <p>Media Edukasi dan Refleksi Diri Anti-Bullying</p>
+  </header>
+
+  <nav>
+    <button onclick="goTo('home')">Beranda</button>
+    <button onclick="goTo('edukasi')">Edukasi</button>
+    <button onclick="goTo('refleksi')">Refleksi Diri</button>
+  </nav>
+
+  <main id="content">
+    <section>
+      <h2>Selamat Datang di SpeakUp!</h2>
+      <p>
+        <b>SpeakUp!</b> adalah media berbasis web yang membantu kamu memahami dan merenungkan isu bullying.  
+        Yuk mulai perjalanan edukasi dan refleksi dirimu sekarang!
+      </p>
+      <button onclick="goTo('edukasi')">Mulai Belajar</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 SpeakUp! | Media Edukasi & Refleksi Diri Anti-Bullying by Nadaa</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
